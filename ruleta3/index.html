@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+  <div id="container">
+    <!-- Marcador -->
+    <div id="marcador">
+      <div id="cartelGanador">
+        <p id="ganadorTexto">Click &quot;Spin&quot; to start!</p>
+      </div>
+    </div>
+
+    <!-- Ruleta -->
+    <div id="ruleta">
+      <div id="sortear">
+        <p>GIRAR</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hidden">
+    <div id="sonido" style="display: none;">
+      <iframe src="ruleta.mp3" id="audio" title=""></iframe>
+    </div>
+    <div id="tituloForm">
+      <p>Nombre</p>
+      <p>Probabilidad (%)</p>
+    </div>
+    <div id="formContainer"></div>
+    <p>Total: <span id="porcentaje"></span>%</p>
+    <button id="agregar">+</button>
+    <button id="aceptar">Cambiar</button>
+    <button id="cancelar">Cancelar</button>
+  </div>
+
+  <script src="helpers.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
