@@ -33,7 +33,7 @@ const uno = {
   probabilidad: 25,
 };
 const dos = {
-  nombre: "High school / College",
+  nombre: "School",
   probabilidad: 25,
 };
 const tres = {
@@ -41,7 +41,7 @@ const tres = {
   probabilidad: 25,
 };
 const cuatro = {
-  nombre: "House",
+  nombre: "Home",
   probabilidad: 25,
 };
 

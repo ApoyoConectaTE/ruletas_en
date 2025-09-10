@@ -41,7 +41,7 @@ const tres = {
   probabilidad: 16.667,
 };
 const cuatro = {
-  nombre: "Senior citizens / Elderly",
+  nombre: "Older adults",
   probabilidad: 16.667,
 };
 const cinco = {
@@ -49,7 +49,7 @@ const cinco = {
   probabilidad: 16.667,
 };
 const seis = {
-  nombre: "Young people / Youth",
+  nombre: "Youth",
   probabilidad: 16.667,
 };
 
